@@ -1,0 +1,254 @@
+.header {
+  background-color: $light__yellow;
+  &__container {
+    @include df-row-between-center;
+  }
+
+  &__logo-link {
+    display: block;
+  }
+
+  &__logo-image {
+  }
+
+  &__mb-logo-link {
+    display: none;
+  }
+
+  &__mb-logo-image {
+  }
+
+  &__nav {
+    display: block;
+  }
+
+  &__list {
+    padding: 26px 0;
+    @include df-row-center-center;
+    gap: 50px;
+  }
+
+  &__lists {
+  }
+
+  &__links {
+  }
+
+  &__links-texts {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: $black;
+  }
+
+  &__button {
+    display: block;
+    padding: 12px 24px;
+    background-color: $black;
+    color: $light__yellow;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Montserrat";
+    letter-spacing: 0%;
+    transition: 100ms ease all;
+    cursor: pointer;
+    &:active {
+      transition: 100ms ease all;
+      opacity: 0.5;
+    }
+  }
+
+  &__button-open-burger {
+    outline: none;
+    border: none;
+    background: none;
+    display: none;
+  }
+
+  &__button-open-burger-icon {
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    background-color: $light__yellow;
+    &__container {
+      @include df-row-between-center;
+    }
+
+    &__logo-link {
+      display: block;
+    }
+
+    &__logo-image {
+    }
+
+    &__mb-logo-link {
+      display: none;
+    }
+
+    &__mb-logo-image {
+    }
+
+    &__nav {
+      display: block;
+    }
+
+    &__list {
+      padding: 26px 0;
+      @include df-row-center-center;
+      gap: 20px;
+    }
+
+    &__lists {
+    }
+
+    &__links {
+    }
+
+    &__links-texts {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: $black;
+    }
+
+    &__button {
+      display: block;
+      padding: 12px 24px;
+      background-color: $black;
+      color: $light__yellow;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 100%;
+      font-family: "Montserrat";
+      letter-spacing: 0%;
+      transition: 100ms ease all;
+      cursor: pointer;
+      &:active {
+        transition: 100ms ease all;
+        opacity: 0.5;
+      }
+    }
+
+    &__button-open-burger {
+      outline: none;
+      border: none;
+      background: none;
+      display: none;
+    }
+
+    &__button-open-burger-icon {
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    background-color: $light__yellow;
+    &__container {
+      padding: 31px 30px !important;
+      @include df-row-between-center;
+    }
+
+    &__logo-link {
+      display: block;
+    }
+
+    &__logo-image {
+    }
+
+    &__mb-logo-link {
+      display: none;
+    }
+
+    &__mb-logo-image {
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__list {
+    }
+
+    &__lists {
+    }
+
+    &__links {
+    }
+
+    &__links-texts {
+    }
+
+    &__button {
+      display: none;
+    }
+
+    &__button-open-burger {
+      outline: none;
+      border: none;
+      background: none;
+      display: block;
+    }
+
+    &__button-open-burger-icon {
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    background-color: $light__yellow;
+    &__container {
+      padding: 21px 20px !important;
+      @include df-row-between-center;
+    }
+
+    &__logo-link {
+      display: none;
+    }
+
+    &__logo-image {
+    }
+
+    &__mb-logo-link {
+      display: block;
+    }
+
+    &__mb-logo-image {
+    }
+
+    &__nav {
+      display: none;
+    }
+
+    &__list {
+    }
+
+    &__lists {
+    }
+
+    &__links {
+    }
+
+    &__links-texts {
+    }
+
+    &__button {
+      display: none;
+    }
+
+    &__button-open-burger {
+      outline: none;
+      border: none;
+      background: none;
+      display: block;
+    }
+
+    &__button-open-burger-icon {
+    }
+  }
+}
